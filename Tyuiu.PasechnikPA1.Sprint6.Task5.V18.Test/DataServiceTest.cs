@@ -1,5 +1,5 @@
 ﻿using Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Lib;
-namespace Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Task
+namespace Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Test
 {
     [TestClass]
     public sealed class DataServiceTest
