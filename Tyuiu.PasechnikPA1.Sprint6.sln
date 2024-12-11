@@ -51,7 +51,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PasechnikPA1.Sprint6.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PasechnikPA1.Sprint6.Task5.V18", "Tyuiu.PasechnikPA1.Sprint6.Task5.V18\Tyuiu.PasechnikPA1.Sprint6.Task5.V18.csproj", "{422757BD-8D6B-4160-9531-B3577E6B27BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Task", "Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Task\Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Task.csproj", "{D78D63E8-320D-454E-9D2D-D7479B5138C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Test", "Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Task\Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Test.csproj", "{D78D63E8-320D-454E-9D2D-D7479B5138C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Lib", "Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Lib\Tyuiu.PasechnikPA1.Sprint6.Task5.V18.Lib.csproj", "{D2266384-F888-4E25-948B-3E2F2909BBBA}"
 EndProject
