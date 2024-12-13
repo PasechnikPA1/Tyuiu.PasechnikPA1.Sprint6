@@ -156,5 +156,10 @@ namespace Tyuiu.PasechnikPA1.Sprint6.Task7.V30
         {
             toolTipButton_KNA.ToolTipTitle = "Справка";
         }
+
+        private void FormMain_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

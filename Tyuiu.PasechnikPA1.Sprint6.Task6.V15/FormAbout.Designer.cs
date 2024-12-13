@@ -28,69 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
-            this.textBoxAbout_KSJ = new System.Windows.Forms.TextBox();
-            this.buttonOk_KSJ = new System.Windows.Forms.Button();
-            this.pictureBoxAvatar_KSJ = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar_KSJ)).BeginInit();
-            this.SuspendLayout();
+            LabelInfo_RKN = new TextBox();
+            buttonOk_RKN = new Button();
+            SuspendLayout();
             // 
-            // textBoxAbout_KSJ
+            // LabelInfo_RKN
             // 
-            this.textBoxAbout_KSJ.Location = new System.Drawing.Point(233, 33);
-            this.textBoxAbout_KSJ.Multiline = true;
-            this.textBoxAbout_KSJ.Name = "textBoxAbout_KSJ";
-            this.textBoxAbout_KSJ.ReadOnly = true;
-            this.textBoxAbout_KSJ.Size = new System.Drawing.Size(555, 263);
-            this.textBoxAbout_KSJ.TabIndex = 0;
-            this.textBoxAbout_KSJ.Text = resources.GetString("textBoxAbout_KSJ.Text");
+            LabelInfo_RKN.BorderStyle = BorderStyle.None;
+            LabelInfo_RKN.Location = new Point(14, 15);
+            LabelInfo_RKN.Margin = new Padding(3, 4, 3, 4);
+            LabelInfo_RKN.Multiline = true;
+            LabelInfo_RKN.Name = "LabelInfo_RKN";
+            LabelInfo_RKN.ReadOnly = true;
+            LabelInfo_RKN.Size = new Size(368, 193);
+            LabelInfo_RKN.TabIndex = 0;
             // 
-            // buttonOk_KSJ
+            // buttonOk_RKN
             // 
-            this.buttonOk_KSJ.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.buttonOk_KSJ.Location = new System.Drawing.Point(647, 319);
-            this.buttonOk_KSJ.Name = "buttonOk_KSJ";
-            this.buttonOk_KSJ.Size = new System.Drawing.Size(130, 47);
-            this.buttonOk_KSJ.TabIndex = 1;
-            this.buttonOk_KSJ.Text = "Ок";
-            this.buttonOk_KSJ.UseVisualStyleBackColor = false;
-            this.buttonOk_KSJ.Click += new System.EventHandler(this.buttonOk_KSJ_Click);
-            // 
-            // pictureBoxAvatar_KSJ
-            // 
-            this.pictureBoxAvatar_KSJ.Image = global::Tyuiu.KoevaSJ.Sprint6.Task6.V15.Properties.Resources.ФотоЯ;
-            this.pictureBoxAvatar_KSJ.Location = new System.Drawing.Point(12, 59);
-            this.pictureBoxAvatar_KSJ.Name = "pictureBoxAvatar_KSJ";
-            this.pictureBoxAvatar_KSJ.Size = new System.Drawing.Size(197, 216);
-            this.pictureBoxAvatar_KSJ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxAvatar_KSJ.TabIndex = 2;
-            this.pictureBoxAvatar_KSJ.TabStop = false;
-            this.pictureBoxAvatar_KSJ.Click += new System.EventHandler(this.pictureBox1_Click);
+            buttonOk_RKN.AllowDrop = true;
+            buttonOk_RKN.Location = new Point(233, 196);
+            buttonOk_RKN.Margin = new Padding(3, 4, 3, 4);
+            buttonOk_RKN.Name = "buttonOk_RKN";
+            buttonOk_RKN.Size = new Size(128, 49);
+            buttonOk_RKN.TabIndex = 1;
+            buttonOk_RKN.Text = "Ок";
+            buttonOk_RKN.UseVisualStyleBackColor = true;
+            buttonOk_RKN.Click += buttonOk_RKN_Click;
             // 
             // FormAbout
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 378);
-            this.Controls.Add(this.pictureBoxAvatar_KSJ);
-            this.Controls.Add(this.buttonOk_KSJ);
-            this.Controls.Add(this.textBoxAbout_KSJ);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "FormAbout";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "О программе";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar_KSJ)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(375, 261);
+            Controls.Add(buttonOk_RKN);
+            Controls.Add(LabelInfo_RKN);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "FormAbout";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "О программе";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBoxAbout_KSJ;
-        private System.Windows.Forms.Button buttonOk_KSJ;
-        private System.Windows.Forms.PictureBox pictureBoxAvatar_KSJ;
+        private TextBox LabelInfo_RKN;
+        private Button buttonOk_RKN;
     }
 }

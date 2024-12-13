@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PasechnikPA1.Sprint6.Task0.V11", "Tyuiu.PasechnikPA1.Sprint6.Task0.V11\Tyuiu.PasechnikPA1.Sprint6.Task0.V11.csproj", "{9783B2EA-9A9F-4BCD-8132-8109CAD97056}"
 EndProject

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tyuiu.PasechnikPA1.Sprint6.Task6.V15
+namespace Tyuiu.PasechnikPA1.Sprint6.Task7.V30
 {
     public partial class FormAbout : Form
     {
@@ -17,17 +17,12 @@ namespace Tyuiu.PasechnikPA1.Sprint6.Task6.V15
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonOk_KSJ_Click(object sender, EventArgs e)
+        private void buttonOk_KNA_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void buttonOk_RKN_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }

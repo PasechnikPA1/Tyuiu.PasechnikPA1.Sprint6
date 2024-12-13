@@ -27,246 +27,252 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            this.panelUp_KNA = new System.Windows.Forms.Panel();
-            this.buttonInfo_KNA = new System.Windows.Forms.Button();
-            this.buttonDone_KNA = new System.Windows.Forms.Button();
-            this.buttonSave_KNA = new System.Windows.Forms.Button();
-            this.buttonOpenFile_KNA = new System.Windows.Forms.Button();
-            this.panelUp2_KNA = new System.Windows.Forms.Panel();
-            this.groupBoxTask_KNA = new System.Windows.Forms.GroupBox();
-            this.textBoxTask_KNA = new System.Windows.Forms.TextBox();
-            this.panelLeft_KNA = new System.Windows.Forms.Panel();
-            this.groupBoxIn_KNA = new System.Windows.Forms.GroupBox();
-            this.dataGridIn_KNA = new System.Windows.Forms.DataGridView();
-            this.panelFill_KNA = new System.Windows.Forms.Panel();
-            this.groupBoxOut_KNA = new System.Windows.Forms.GroupBox();
-            this.dataGridOut_KNA = new System.Windows.Forms.DataGridView();
-            this.splitterVD2_KNA = new System.Windows.Forms.Splitter();
-            this.splitterVD_KNA = new System.Windows.Forms.Splitter();
-            this.openFileDialogTask_KNA = new System.Windows.Forms.OpenFileDialog();
-            this.saveFileDialogMatrix_KNA = new System.Windows.Forms.SaveFileDialog();
-            this.toolTipButton_KNA = new System.Windows.Forms.ToolTip(this.components);
-            this.panelUp_KNA.SuspendLayout();
-            this.panelUp2_KNA.SuspendLayout();
-            this.groupBoxTask_KNA.SuspendLayout();
-            this.panelLeft_KNA.SuspendLayout();
-            this.groupBoxIn_KNA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridIn_KNA)).BeginInit();
-            this.panelFill_KNA.SuspendLayout();
-            this.groupBoxOut_KNA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridOut_KNA)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            panelUp_KNA = new Panel();
+            buttonInfo_KNA = new Button();
+            buttonDone_KNA = new Button();
+            buttonSave_KNA = new Button();
+            buttonOpenFile_KNA = new Button();
+            panelUp2_KNA = new Panel();
+            groupBoxTask_KNA = new GroupBox();
+            textBoxTask_KNA = new TextBox();
+            panelLeft_KNA = new Panel();
+            groupBoxIn_KNA = new GroupBox();
+            dataGridIn_KNA = new DataGridView();
+            panelFill_KNA = new Panel();
+            groupBoxOut_KNA = new GroupBox();
+            dataGridOut_KNA = new DataGridView();
+            splitterVD2_KNA = new Splitter();
+            splitterVD_KNA = new Splitter();
+            openFileDialogTask_KNA = new OpenFileDialog();
+            saveFileDialogMatrix_KNA = new SaveFileDialog();
+            toolTipButton_KNA = new ToolTip(components);
+            panelUp_KNA.SuspendLayout();
+            panelUp2_KNA.SuspendLayout();
+            groupBoxTask_KNA.SuspendLayout();
+            panelLeft_KNA.SuspendLayout();
+            groupBoxIn_KNA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridIn_KNA).BeginInit();
+            panelFill_KNA.SuspendLayout();
+            groupBoxOut_KNA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridOut_KNA).BeginInit();
+            SuspendLayout();
             // 
             // panelUp_KNA
             // 
-            this.panelUp_KNA.Controls.Add(this.buttonInfo_KNA);
-            this.panelUp_KNA.Controls.Add(this.buttonDone_KNA);
-            this.panelUp_KNA.Controls.Add(this.buttonSave_KNA);
-            this.panelUp_KNA.Controls.Add(this.buttonOpenFile_KNA);
-            this.panelUp_KNA.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelUp_KNA.Location = new System.Drawing.Point(0, 0);
-            this.panelUp_KNA.Margin = new System.Windows.Forms.Padding(2);
-            this.panelUp_KNA.Name = "panelUp_KNA";
-            this.panelUp_KNA.Size = new System.Drawing.Size(841, 79);
-            this.panelUp_KNA.TabIndex = 0;
+            panelUp_KNA.Controls.Add(buttonInfo_KNA);
+            panelUp_KNA.Controls.Add(buttonDone_KNA);
+            panelUp_KNA.Controls.Add(buttonSave_KNA);
+            panelUp_KNA.Controls.Add(buttonOpenFile_KNA);
+            panelUp_KNA.Dock = DockStyle.Top;
+            panelUp_KNA.Location = new Point(0, 0);
+            panelUp_KNA.Name = "panelUp_KNA";
+            panelUp_KNA.Size = new Size(1121, 115);
+            panelUp_KNA.TabIndex = 0;
             // 
             // buttonInfo_KNA
             // 
-            this.buttonInfo_KNA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonInfo_KNA.BackColor = System.Drawing.SystemColors.Menu;
-            this.buttonInfo_KNA.Image = ((System.Drawing.Image)(resources.GetObject("buttonInfo_KNA.Image")));
-            this.buttonInfo_KNA.Location = new System.Drawing.Point(744, 5);
-            this.buttonInfo_KNA.Name = "buttonInfo_KNA";
-            this.buttonInfo_KNA.Size = new System.Drawing.Size(85, 71);
-            this.buttonInfo_KNA.TabIndex = 3;
-            this.toolTipButton_KNA.SetToolTip(this.buttonInfo_KNA, "buttonHelp_KNA_MouseEnter");
-            this.buttonInfo_KNA.UseVisualStyleBackColor = false;
-            this.buttonInfo_KNA.Click += new System.EventHandler(this.buttonInfo_KNA_Click);
+            buttonInfo_KNA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            buttonInfo_KNA.BackColor = SystemColors.Menu;
+            buttonInfo_KNA.Location = new Point(992, 7);
+            buttonInfo_KNA.Margin = new Padding(4, 4, 4, 4);
+            buttonInfo_KNA.Name = "buttonInfo_KNA";
+            buttonInfo_KNA.Size = new Size(113, 104);
+            buttonInfo_KNA.TabIndex = 3;
+            toolTipButton_KNA.SetToolTip(buttonInfo_KNA, "buttonHelp_KNA_MouseEnter");
+            buttonInfo_KNA.UseVisualStyleBackColor = false;
+            buttonInfo_KNA.Click += buttonInfo_KNA_Click;
             // 
             // buttonDone_KNA
             // 
-            this.buttonDone_KNA.BackColor = System.Drawing.SystemColors.Menu;
-            this.buttonDone_KNA.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone_KNA.Image")));
-            this.buttonDone_KNA.Location = new System.Drawing.Point(94, 3);
-            this.buttonDone_KNA.Name = "buttonDone_KNA";
-            this.buttonDone_KNA.Size = new System.Drawing.Size(85, 71);
-            this.buttonDone_KNA.TabIndex = 1;
-            this.toolTipButton_KNA.SetToolTip(this.buttonDone_KNA, "Выполнить");
-            this.buttonDone_KNA.UseVisualStyleBackColor = false;
-            this.buttonDone_KNA.Click += new System.EventHandler(this.buttonDone_KNA_Click);
+            buttonDone_KNA.BackColor = SystemColors.Menu;
+            buttonDone_KNA.Location = new Point(125, 4);
+            buttonDone_KNA.Margin = new Padding(4, 4, 4, 4);
+            buttonDone_KNA.Name = "buttonDone_KNA";
+            buttonDone_KNA.Size = new Size(113, 104);
+            buttonDone_KNA.TabIndex = 1;
+            toolTipButton_KNA.SetToolTip(buttonDone_KNA, "Выполнить");
+            buttonDone_KNA.UseVisualStyleBackColor = false;
+            buttonDone_KNA.Click += buttonDone_KNA_Click;
             // 
             // buttonSave_KNA
             // 
-            this.buttonSave_KNA.BackColor = System.Drawing.SystemColors.Menu;
-            this.buttonSave_KNA.Image = ((System.Drawing.Image)(resources.GetObject("buttonSave_KNA.Image")));
-            this.buttonSave_KNA.Location = new System.Drawing.Point(185, 3);
-            this.buttonSave_KNA.Name = "buttonSave_KNA";
-            this.buttonSave_KNA.Size = new System.Drawing.Size(85, 71);
-            this.buttonSave_KNA.TabIndex = 2;
-            this.toolTipButton_KNA.SetToolTip(this.buttonSave_KNA, "Сохранить файл");
-            this.buttonSave_KNA.UseVisualStyleBackColor = false;
-            this.buttonSave_KNA.Click += new System.EventHandler(this.buttonSave_KNA_Click);
+            buttonSave_KNA.BackColor = SystemColors.Menu;
+            buttonSave_KNA.Location = new Point(247, 4);
+            buttonSave_KNA.Margin = new Padding(4, 4, 4, 4);
+            buttonSave_KNA.Name = "buttonSave_KNA";
+            buttonSave_KNA.Size = new Size(113, 104);
+            buttonSave_KNA.TabIndex = 2;
+            toolTipButton_KNA.SetToolTip(buttonSave_KNA, "Сохранить файл");
+            buttonSave_KNA.UseVisualStyleBackColor = false;
+            buttonSave_KNA.Click += buttonSave_KNA_Click;
             // 
             // buttonOpenFile_KNA
             // 
-            this.buttonOpenFile_KNA.BackColor = System.Drawing.SystemColors.Menu;
-            this.buttonOpenFile_KNA.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenFile_KNA.Image")));
-            this.buttonOpenFile_KNA.Location = new System.Drawing.Point(3, 3);
-            this.buttonOpenFile_KNA.Name = "buttonOpenFile_KNA";
-            this.buttonOpenFile_KNA.Size = new System.Drawing.Size(85, 71);
-            this.buttonOpenFile_KNA.TabIndex = 0;
-            this.toolTipButton_KNA.SetToolTip(this.buttonOpenFile_KNA, "Открыть файл\r\n");
-            this.buttonOpenFile_KNA.UseVisualStyleBackColor = false;
-            this.buttonOpenFile_KNA.Click += new System.EventHandler(this.buttonOpenFile_KNA_Click);
+            buttonOpenFile_KNA.BackColor = SystemColors.Menu;
+            buttonOpenFile_KNA.Location = new Point(4, 4);
+            buttonOpenFile_KNA.Margin = new Padding(4, 4, 4, 4);
+            buttonOpenFile_KNA.Name = "buttonOpenFile_KNA";
+            buttonOpenFile_KNA.Size = new Size(113, 104);
+            buttonOpenFile_KNA.TabIndex = 0;
+            toolTipButton_KNA.SetToolTip(buttonOpenFile_KNA, "Открыть файл\r\n");
+            buttonOpenFile_KNA.UseVisualStyleBackColor = false;
+            buttonOpenFile_KNA.Click += buttonOpenFile_KNA_Click;
             // 
             // panelUp2_KNA
             // 
-            this.panelUp2_KNA.Controls.Add(this.groupBoxTask_KNA);
-            this.panelUp2_KNA.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelUp2_KNA.Location = new System.Drawing.Point(0, 79);
-            this.panelUp2_KNA.Margin = new System.Windows.Forms.Padding(2);
-            this.panelUp2_KNA.Name = "panelUp2_KNA";
-            this.panelUp2_KNA.Size = new System.Drawing.Size(841, 79);
-            this.panelUp2_KNA.TabIndex = 1;
+            panelUp2_KNA.Controls.Add(groupBoxTask_KNA);
+            panelUp2_KNA.Dock = DockStyle.Top;
+            panelUp2_KNA.Location = new Point(0, 115);
+            panelUp2_KNA.Name = "panelUp2_KNA";
+            panelUp2_KNA.Size = new Size(1121, 115);
+            panelUp2_KNA.TabIndex = 1;
             // 
             // groupBoxTask_KNA
             // 
-            this.groupBoxTask_KNA.Controls.Add(this.textBoxTask_KNA);
-            this.groupBoxTask_KNA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBoxTask_KNA.Location = new System.Drawing.Point(0, 0);
-            this.groupBoxTask_KNA.Name = "groupBoxTask_KNA";
-            this.groupBoxTask_KNA.Size = new System.Drawing.Size(841, 79);
-            this.groupBoxTask_KNA.TabIndex = 2;
-            this.groupBoxTask_KNA.TabStop = false;
-            this.groupBoxTask_KNA.Text = "Условие";
+            groupBoxTask_KNA.Controls.Add(textBoxTask_KNA);
+            groupBoxTask_KNA.Dock = DockStyle.Fill;
+            groupBoxTask_KNA.Location = new Point(0, 0);
+            groupBoxTask_KNA.Margin = new Padding(4, 4, 4, 4);
+            groupBoxTask_KNA.Name = "groupBoxTask_KNA";
+            groupBoxTask_KNA.Padding = new Padding(4, 4, 4, 4);
+            groupBoxTask_KNA.Size = new Size(1121, 115);
+            groupBoxTask_KNA.TabIndex = 2;
+            groupBoxTask_KNA.TabStop = false;
+            groupBoxTask_KNA.Text = "Условие";
             // 
             // textBoxTask_KNA
             // 
-            this.textBoxTask_KNA.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBoxTask_KNA.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxTask_KNA.Location = new System.Drawing.Point(6, 19);
-            this.textBoxTask_KNA.Multiline = true;
-            this.textBoxTask_KNA.Name = "textBoxTask_KNA";
-            this.textBoxTask_KNA.Size = new System.Drawing.Size(579, 49);
-            this.textBoxTask_KNA.TabIndex = 0;
-            this.textBoxTask_KNA.Text = resources.GetString("textBoxTask_KNA.Text");
+            textBoxTask_KNA.BackColor = SystemColors.Menu;
+            textBoxTask_KNA.BorderStyle = BorderStyle.None;
+            textBoxTask_KNA.Location = new Point(8, 28);
+            textBoxTask_KNA.Margin = new Padding(4, 4, 4, 4);
+            textBoxTask_KNA.Multiline = true;
+            textBoxTask_KNA.Name = "textBoxTask_KNA";
+            textBoxTask_KNA.Size = new Size(772, 72);
+            textBoxTask_KNA.TabIndex = 0;
             // 
             // panelLeft_KNA
             // 
-            this.panelLeft_KNA.Controls.Add(this.groupBoxIn_KNA);
-            this.panelLeft_KNA.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLeft_KNA.Location = new System.Drawing.Point(0, 158);
-            this.panelLeft_KNA.Margin = new System.Windows.Forms.Padding(2);
-            this.panelLeft_KNA.Name = "panelLeft_KNA";
-            this.panelLeft_KNA.Size = new System.Drawing.Size(403, 449);
-            this.panelLeft_KNA.TabIndex = 0;
+            panelLeft_KNA.Controls.Add(groupBoxIn_KNA);
+            panelLeft_KNA.Dock = DockStyle.Left;
+            panelLeft_KNA.Location = new Point(0, 230);
+            panelLeft_KNA.Name = "panelLeft_KNA";
+            panelLeft_KNA.Size = new Size(537, 657);
+            panelLeft_KNA.TabIndex = 0;
             // 
             // groupBoxIn_KNA
             // 
-            this.groupBoxIn_KNA.Controls.Add(this.dataGridIn_KNA);
-            this.groupBoxIn_KNA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBoxIn_KNA.Location = new System.Drawing.Point(0, 0);
-            this.groupBoxIn_KNA.Name = "groupBoxIn_KNA";
-            this.groupBoxIn_KNA.Size = new System.Drawing.Size(403, 449);
-            this.groupBoxIn_KNA.TabIndex = 0;
-            this.groupBoxIn_KNA.TabStop = false;
-            this.groupBoxIn_KNA.Text = "Ввод";
+            groupBoxIn_KNA.Controls.Add(dataGridIn_KNA);
+            groupBoxIn_KNA.Dock = DockStyle.Fill;
+            groupBoxIn_KNA.Location = new Point(0, 0);
+            groupBoxIn_KNA.Margin = new Padding(4, 4, 4, 4);
+            groupBoxIn_KNA.Name = "groupBoxIn_KNA";
+            groupBoxIn_KNA.Padding = new Padding(4, 4, 4, 4);
+            groupBoxIn_KNA.Size = new Size(537, 657);
+            groupBoxIn_KNA.TabIndex = 0;
+            groupBoxIn_KNA.TabStop = false;
+            groupBoxIn_KNA.Text = "Ввод";
             // 
             // dataGridIn_KNA
             // 
-            this.dataGridIn_KNA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridIn_KNA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridIn_KNA.Location = new System.Drawing.Point(3, 16);
-            this.dataGridIn_KNA.Name = "dataGridIn_KNA";
-            this.dataGridIn_KNA.Size = new System.Drawing.Size(397, 430);
-            this.dataGridIn_KNA.TabIndex = 1;
+            dataGridIn_KNA.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridIn_KNA.Dock = DockStyle.Fill;
+            dataGridIn_KNA.Location = new Point(4, 23);
+            dataGridIn_KNA.Margin = new Padding(4, 4, 4, 4);
+            dataGridIn_KNA.Name = "dataGridIn_KNA";
+            dataGridIn_KNA.RowHeadersWidth = 47;
+            dataGridIn_KNA.Size = new Size(529, 630);
+            dataGridIn_KNA.TabIndex = 1;
             // 
             // panelFill_KNA
             // 
-            this.panelFill_KNA.Controls.Add(this.groupBoxOut_KNA);
-            this.panelFill_KNA.Controls.Add(this.splitterVD2_KNA);
-            this.panelFill_KNA.Controls.Add(this.splitterVD_KNA);
-            this.panelFill_KNA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelFill_KNA.Location = new System.Drawing.Point(403, 158);
-            this.panelFill_KNA.Margin = new System.Windows.Forms.Padding(2);
-            this.panelFill_KNA.Name = "panelFill_KNA";
-            this.panelFill_KNA.Size = new System.Drawing.Size(438, 449);
-            this.panelFill_KNA.TabIndex = 0;
+            panelFill_KNA.Controls.Add(groupBoxOut_KNA);
+            panelFill_KNA.Controls.Add(splitterVD2_KNA);
+            panelFill_KNA.Controls.Add(splitterVD_KNA);
+            panelFill_KNA.Dock = DockStyle.Fill;
+            panelFill_KNA.Location = new Point(537, 230);
+            panelFill_KNA.Name = "panelFill_KNA";
+            panelFill_KNA.Size = new Size(584, 657);
+            panelFill_KNA.TabIndex = 0;
             // 
             // groupBoxOut_KNA
             // 
-            this.groupBoxOut_KNA.Controls.Add(this.dataGridOut_KNA);
-            this.groupBoxOut_KNA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBoxOut_KNA.Location = new System.Drawing.Point(6, 0);
-            this.groupBoxOut_KNA.Name = "groupBoxOut_KNA";
-            this.groupBoxOut_KNA.Size = new System.Drawing.Size(432, 449);
-            this.groupBoxOut_KNA.TabIndex = 2;
-            this.groupBoxOut_KNA.TabStop = false;
-            this.groupBoxOut_KNA.Text = "Вывод";
+            groupBoxOut_KNA.Controls.Add(dataGridOut_KNA);
+            groupBoxOut_KNA.Dock = DockStyle.Fill;
+            groupBoxOut_KNA.Location = new Point(8, 0);
+            groupBoxOut_KNA.Margin = new Padding(4, 4, 4, 4);
+            groupBoxOut_KNA.Name = "groupBoxOut_KNA";
+            groupBoxOut_KNA.Padding = new Padding(4, 4, 4, 4);
+            groupBoxOut_KNA.Size = new Size(576, 657);
+            groupBoxOut_KNA.TabIndex = 2;
+            groupBoxOut_KNA.TabStop = false;
+            groupBoxOut_KNA.Text = "Вывод";
             // 
             // dataGridOut_KNA
             // 
-            this.dataGridOut_KNA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridOut_KNA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridOut_KNA.Location = new System.Drawing.Point(3, 16);
-            this.dataGridOut_KNA.Name = "dataGridOut_KNA";
-            this.dataGridOut_KNA.Size = new System.Drawing.Size(426, 430);
-            this.dataGridOut_KNA.TabIndex = 2;
+            dataGridOut_KNA.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridOut_KNA.Dock = DockStyle.Fill;
+            dataGridOut_KNA.Location = new Point(4, 23);
+            dataGridOut_KNA.Margin = new Padding(4, 4, 4, 4);
+            dataGridOut_KNA.Name = "dataGridOut_KNA";
+            dataGridOut_KNA.RowHeadersWidth = 47;
+            dataGridOut_KNA.Size = new Size(568, 630);
+            dataGridOut_KNA.TabIndex = 2;
             // 
             // splitterVD2_KNA
             // 
-            this.splitterVD2_KNA.Location = new System.Drawing.Point(3, 0);
-            this.splitterVD2_KNA.Name = "splitterVD2_KNA";
-            this.splitterVD2_KNA.Size = new System.Drawing.Size(3, 449);
-            this.splitterVD2_KNA.TabIndex = 1;
-            this.splitterVD2_KNA.TabStop = false;
+            splitterVD2_KNA.Location = new Point(4, 0);
+            splitterVD2_KNA.Margin = new Padding(4, 4, 4, 4);
+            splitterVD2_KNA.Name = "splitterVD2_KNA";
+            splitterVD2_KNA.Size = new Size(4, 657);
+            splitterVD2_KNA.TabIndex = 1;
+            splitterVD2_KNA.TabStop = false;
             // 
             // splitterVD_KNA
             // 
-            this.splitterVD_KNA.Location = new System.Drawing.Point(0, 0);
-            this.splitterVD_KNA.Name = "splitterVD_KNA";
-            this.splitterVD_KNA.Size = new System.Drawing.Size(3, 449);
-            this.splitterVD_KNA.TabIndex = 0;
-            this.splitterVD_KNA.TabStop = false;
+            splitterVD_KNA.Location = new Point(0, 0);
+            splitterVD_KNA.Margin = new Padding(4, 4, 4, 4);
+            splitterVD_KNA.Name = "splitterVD_KNA";
+            splitterVD_KNA.Size = new Size(4, 657);
+            splitterVD_KNA.TabIndex = 0;
+            splitterVD_KNA.TabStop = false;
             // 
             // openFileDialogTask_KNA
             // 
-            this.openFileDialogTask_KNA.FileName = "openFileDialog1";
+            openFileDialogTask_KNA.FileName = "openFileDialog1";
             // 
             // toolTipButton_KNA
             // 
-            this.toolTipButton_KNA.IsBalloon = true;
-            this.toolTipButton_KNA.OwnerDraw = true;
-            this.toolTipButton_KNA.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            toolTipButton_KNA.IsBalloon = true;
+            toolTipButton_KNA.OwnerDraw = true;
+            toolTipButton_KNA.ToolTipIcon = ToolTipIcon.Info;
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(841, 607);
-            this.Controls.Add(this.panelFill_KNA);
-            this.Controls.Add(this.panelLeft_KNA);
-            this.Controls.Add(this.panelUp2_KNA);
-            this.Controls.Add(this.panelUp_KNA);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(857, 646);
-            this.Name = "FormMain";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Спринт 6 | Таск 7 | Вариант 30 | Карпенко Н.А.";
-            this.panelUp_KNA.ResumeLayout(false);
-            this.panelUp2_KNA.ResumeLayout(false);
-            this.groupBoxTask_KNA.ResumeLayout(false);
-            this.groupBoxTask_KNA.PerformLayout();
-            this.panelLeft_KNA.ResumeLayout(false);
-            this.groupBoxIn_KNA.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridIn_KNA)).EndInit();
-            this.panelFill_KNA.ResumeLayout(false);
-            this.groupBoxOut_KNA.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridOut_KNA)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1121, 887);
+            Controls.Add(panelFill_KNA);
+            Controls.Add(panelLeft_KNA);
+            Controls.Add(panelUp2_KNA);
+            Controls.Add(panelUp_KNA);
+            MinimumSize = new Size(1137, 924);
+            Name = "FormMain";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Спринт 6 | Таск 7 | Вариант 30 | Карпенко Н.А.";
+            Load += FormMain_Load_1;
+            panelUp_KNA.ResumeLayout(false);
+            panelUp2_KNA.ResumeLayout(false);
+            groupBoxTask_KNA.ResumeLayout(false);
+            groupBoxTask_KNA.PerformLayout();
+            panelLeft_KNA.ResumeLayout(false);
+            groupBoxIn_KNA.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridIn_KNA).EndInit();
+            panelFill_KNA.ResumeLayout(false);
+            groupBoxOut_KNA.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridOut_KNA).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
