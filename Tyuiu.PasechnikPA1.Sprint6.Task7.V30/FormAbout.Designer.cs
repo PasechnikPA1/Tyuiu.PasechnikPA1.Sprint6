@@ -42,9 +42,9 @@
             // 
             groupBoxInfo_KNA.Controls.Add(textBoxInfo_KNA);
             groupBoxInfo_KNA.Location = new Point(465, 70);
-            groupBoxInfo_KNA.Margin = new Padding(4, 4, 4, 4);
+            groupBoxInfo_KNA.Margin = new Padding(4);
             groupBoxInfo_KNA.Name = "groupBoxInfo_KNA";
-            groupBoxInfo_KNA.Padding = new Padding(4, 4, 4, 4);
+            groupBoxInfo_KNA.Padding = new Padding(4);
             groupBoxInfo_KNA.Size = new Size(521, 456);
             groupBoxInfo_KNA.TabIndex = 0;
             groupBoxInfo_KNA.TabStop = false;
@@ -54,7 +54,7 @@
             textBoxInfo_KNA.BackColor = SystemColors.Menu;
             textBoxInfo_KNA.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
             textBoxInfo_KNA.Location = new Point(8, 98);
-            textBoxInfo_KNA.Margin = new Padding(4, 4, 4, 4);
+            textBoxInfo_KNA.Margin = new Padding(4);
             textBoxInfo_KNA.Multiline = true;
             textBoxInfo_KNA.Name = "textBoxInfo_KNA";
             textBoxInfo_KNA.ReadOnly = true;
@@ -64,7 +64,7 @@
             // pictureBox1
             // 
             pictureBox1.Location = new Point(53, 51);
-            pictureBox1.Margin = new Padding(4, 4, 4, 4);
+            pictureBox1.Margin = new Padding(4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(369, 519);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -74,7 +74,7 @@
             // buttonOk_KNA
             // 
             buttonOk_KNA.Location = new Point(880, 593);
-            buttonOk_KNA.Margin = new Padding(4, 4, 4, 4);
+            buttonOk_KNA.Margin = new Padding(4);
             buttonOk_KNA.Name = "buttonOk_KNA";
             buttonOk_KNA.Size = new Size(171, 47);
             buttonOk_KNA.TabIndex = 2;
@@ -87,10 +87,10 @@
             pictureBox2.Image = Properties.Resources.kit;
             pictureBox2.Location = new Point(24, 12);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(657, 507);
+            pictureBox2.Size = new Size(370, 312);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
             // 
             // FormAbout
             // 
@@ -101,7 +101,7 @@
             Controls.Add(buttonOk_KNA);
             Controls.Add(pictureBox1);
             Controls.Add(groupBoxInfo_KNA);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "FormAbout";
             Text = "Справка";
             groupBoxInfo_KNA.ResumeLayout(false);

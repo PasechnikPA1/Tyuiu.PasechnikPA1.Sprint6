@@ -14,17 +14,13 @@ namespace Tyuiu.PasechnikPA1.Sprint6.Task7.V30
     {
         public FormAbout()
         {
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             InitializeComponent();
         }
 
         private void buttonOk_KNA_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
